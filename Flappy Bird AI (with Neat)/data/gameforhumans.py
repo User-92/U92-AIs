@@ -1,3 +1,4 @@
+# /usr/bin/python3.7
 # Setup Pygame and imports --------------------------------------------------------------------------------------------- #
 import pygame, sys, random, os
 import font as f
