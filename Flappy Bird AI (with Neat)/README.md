@@ -11,7 +11,7 @@ When an ai reaches 50, it will create a flapai.txt file.
 The txt file will be loaded when you run the test-trained-ai.py script. The ai is no longer learning and will just play the game.
 You do not need to delete the old flapai.txt file if you want to create a new ai, the new ai will override the old one.
 You can change ai config settings (ex: population size) in the config.txt file in data
-If you want to play the game yourself, that will be in data also under the name "gameforhumans.py"
+If you want to play the game yourself, that will be in data also under the name "gameforhumans.py".
 
 ## Requirements
 1. pygame
