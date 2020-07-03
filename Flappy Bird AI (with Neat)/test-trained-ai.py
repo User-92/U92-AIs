@@ -13,7 +13,7 @@ pygame.display.set_caption("Flappy Bird AI (After Training)")
 screen = pygame.display.set_mode((576, 800), 0, 32)
 display = pygame.Surface((288, 400))
 
-# Load Images ---------------------------------------------------------------------------------------------------------- #
+# Load Images ----------------------------------------------------------------------------------------------------------- #
 background = pygame.image.load("data/img/bg.png")
 ground_img = pygame.image.load("data/img/base.png")
 birb_img = pygame.image.load("data/img/bird/bird_0.png")
@@ -22,7 +22,7 @@ pipe_img = pygame.image.load("data/img/pipe.png")
 font = f.Font("data/img/large_font.png")
 
 
-# Classes and Funcs ---------------------------------------------------------------------------------------------------- #
+# Classes and Funcs ----------------------------------------------------------------------------------------------------- #
 # Birb class
 class Bird():
     def __init__(self, x, y, size_x, size_y):
